@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  
+  </head>
+  <body>
+    <div class="header">
+        <h1>Be Brave. Take Control</h1>
+        <input type="text" id="userinput" placeholder="New list entry" class="animate__animated">
+      <button type="button" id="add-btn">Add</button>
+      <input type="radio" name="listchoice" id="todo" value = "todo" checked = true>
+        <label for="todo">To-Do</label>
+      <input type="radio" name="listchoice" id="shopping" value = "shopping">
+        <label for="shopping">Shopping</label>
+    <br>
+    </div>
+    <h3>To Do List</h3>
+    <ul id="todolist">
+      <li>Go through JavaScript tutorials<input type="checkbox" class = 'del-btn'></li>
+      <li>Practise the codes<input type="checkbox" class = 'del-btn'></li>
+      <li>Read a book on JavaScript<input type="checkbox" class = 'del-btn'></li>
+      <li>Organise my notes<input type="checkbox" class = 'del-btn'></li>
+      <li>Create JavaScript projects<input type="checkbox" class = 'del-btn'></li>
+      <li>Take quiz<input type="checkbox" class = 'del-btn'></li>
+      <li>Comprehend interview questions<input type="checkbox" class = 'del-btn'></li>
+    </ul>
+    <h3>Shopping List</h3>
+    <ul id="shoppinglist">
+        <li>Dish sponge</li>
+        <li>Cheese</li>
+        <li>Basil</li>
+        <li>Black Pepper</li>
+        <li>Toasted Sesame oil</li>
+      </ul>  
+    <button type="button" class="clear-list"">Done shopping!</button>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
